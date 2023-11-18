@@ -1,3 +1,4 @@
+// navbar 
 const checkbox = document.getElementById('check');
 const navlist = document.getElementsByClassName('navli');
 
@@ -17,6 +18,8 @@ navlist[i].addEventListener('click' , ()=>{
 })
 }
 
+
+//hover banner
 const card = document.querySelector(".card");
 const motionMatchMedia = window.matchMedia("(prefers-reduced-motion)");
 const THRESHOLD = 3;
